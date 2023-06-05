@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+   
+</head>
+
+<body>
+
+      
+
+    <div class="container">
+
+        <video class="background-video" autoplay muted loop>
+            <source src="./img/[Free Download] Falling Snow Realistic Overlay Loop.mp4">
+          </video>
+          
+        <div class="topSec">
+            <i class="bi bi-chevron-left"></i>
+            <span>Now Playing </span>
+            <i class="bi bi-three-dots"></i>
+        </div>
+
+
+
+
+    <div class="musicImg">
+        <img src="" style="width: 280px; height: 350px;" alt="">
+    </div>
+
+   <div class="songContainer">
+    <div class="aboutSong">
+        <p class="songName"></p>
+        <p class="artist"></p>
+    </div>
+
+
+
+    <div class="progressSec">
+        <div class="progressBar">
+            <audio id="currentAudio" src=""></audio>
+        </div>
+    
+        <div class="songTime">
+            <span class="currentTime">0:00</span>
+            <span class="songDuration">0:00</span>
+        </div>
+    </div>
+    
+
+        <div class="control">
+            <i id="repeatIcon" class="bi bi-repeat" style="font-size: 18px;" title="Repeat playlist"></i>
+
+            <i id="backwardBtn" class="bi bi-skip-start-fill"></i>
+    
+            <div class="playBtn">
+                <i class="bi bi-play-circle-fill gradient-icon" style="font-size: 45px;"></i>
+            </div>
+    
+            <i id="forwardBtn" class="bi bi-skip-end-fill"></i>
+            <i id="moreSongs" class="bi bi-music-note-list"  style=" font-size: 16px;"></i>
+        </div>
+  
+   
+
+    
+<div class="songLists">
+    <div class="header">
+        <div class="row">
+            <i id="moreSongs" class="bi bi-music-note-list" style="font-size: 16px;"></i>
+            <span>Music Lists</span>
+        </div>
+        <i id="closeBtn" class="bi bi-x-lg"></i>
+            </div>
+            <ul>
+               
+            </ul>
+        </div>
+
+
+
+
+    </div>
+
+
+
+    <script src="./main.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
